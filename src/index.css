@@ -14,32 +14,34 @@ code {
   color: rgb(231, 227, 227);
   width: 400px, 300px;
   margin: 30px;
+  font-size: 2.5em;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: row-reverse;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   /* height: 6em; */
   /* background-image: linear-gradient(rgb(32, 31, 31), rgb(36, 34, 34), whitesmoke) */
 }
 
-.logo {
+/* .logo {
   display: flex;
-  justify-content: flex-start;
   height: 8rem;
-  margin-right: 8rem;
+  margin-left: -40rem;
+  margin-right: -15rem;
   border-radius: 65px;
   /* animation-name: Logo-spin;
   animation-duration: 10s;
-  animation-iteration-count: 3; */
-}
+  animation-iteration-count: 3; }*/
 
 .title {
   Display: flex;
   justify-content: center;
   align-items: center;
   /* background: whitesmoke; */
-  /* height: 4em; */
+  height: 3em;
+  margin: 200px, 200px;
+  font-size: 2em;
   border-radius: 4px;
   color: rgb(216, 209, 209);
   /* box-shadow: 0 0 20px; */
@@ -47,21 +49,21 @@ code {
 }
 
 .photo-container {
-  display: grid;
-  /* grid-gap: 20px; */
-  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+  display: flex;
+  justify-content: center;
   width: 60em, auto;
-  /* border: solid 4px black; */
+  border: solid 10px black;
   background-image: linear-gradient(rgb(36, 34, 34), whitesmoke)
 }
 
 .space-image {
-  height: 40em;
-  width: auto;
+  height: auto;
+  max-width: 40rem;
+  width: 100%;
   border-radius: 4px;
   box-shadow: 0 5px 30px;
   object-fit: scale;
-  /* border: solid 4px goldenrod; */
+  border: solid 4px goldenrod;
 }
 
 .bottom {
@@ -69,7 +71,7 @@ code {
   font-weight: 750;
   width: auto;
   margin: 0 4.5em;
-  /* border: solid 4px skyblue; */
+  border: solid 4px skyblue;
 }
 
 /* @keyframes Logo-spin {
